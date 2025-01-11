@@ -1,0 +1,63 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.heading {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.input-wrapper .input {
+  width: 100px;
+  padding: 6px 12px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.chessboard-wrapper {
+  border: 1px solid rgb(221, 208, 208);
+  min-width: 200px;
+  min-height: 200px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 4px;
+}
+
+.chessboard-display {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.board {
+  border: 2px solid black;
+  border-radius: 8px;
+  width: fit-content;
+}
+
+.board-cell {
+  width: 100px;
+  height: 100px;
+}
+
+.board-row {
+  display: flex;
+  flex: 1;
+}
+
+.black-box {
+  background-color: black;
+}
+
+.gray-box {
+  background-color: grey;
+}
